@@ -30,11 +30,20 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a pradigm that says html css and javascript can live inside one reusable component.
+It makes web apps very dynamic and easy to build.
+
 1. Describe component state.
+
+State is anything you belive will change in the component. You initialize it. ANd update it.
 
 1. Describe props.
 
+Proerties that are created in parent and passed into child components. State is passed to inherit dependent functionality.
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+Anything that affects something outside of the function. We use the effect hook to syncronize the effect to specific events. Or any render.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -104,6 +113,6 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` branch (student's  Repo). **Please don't merge your own pull request**
+- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` branch (student's Repo). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete after receiving your pull-request
